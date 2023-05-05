@@ -33,7 +33,7 @@ Then, install the dependencies:
 npm i
 ```
 
-This will install (jest)[https://jestjs.io/].
+This will install [jest](https://jestjs.io/).
 
 Finally, to execute the application use this command:
 
