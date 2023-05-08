@@ -38,7 +38,7 @@ This will install [jest](https://jestjs.io/).
 Finally, to execute the application use this command:
 
 ```
-
+npx ts-node src/Application.ts
 ```
 
 Or use the IDE facilities to run.
