@@ -1,8 +1,12 @@
+function requestToDB(ms: number) {
+  const now = new Date();
+
+  while (new Date().getTime() - now.getTime() < ms);
+}
 export class TechBlogs {
   public static listAllBlogs(): string[] {
     try {
-      console.log("Accessing db");
-      await sleep(5000); // Access to DB are very slow
+      requestToDB(5000);
     } catch (e: any) {
       throw new Error("Unexpected exception");
     }
