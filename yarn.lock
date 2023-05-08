@@ -2563,11 +2563,6 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-scl@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.npmjs.org/scl/-/scl-4.1.1.tgz"
-  integrity sha512-orya+QZcrk24epxp/yOZ3aW3voicOu9WC+z3dHvIZAn4Mfy9MLKRGmr75w4HzDFEYuSEEYTqMRZ8bSAENGwQMw==
-
 semver@^6.0.0:
   version "6.3.0"
   resolved "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"

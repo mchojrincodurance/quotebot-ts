@@ -17,7 +17,6 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "scl": "^4.1.1",
     "ts-node": "^10.9.1"
   }
 }

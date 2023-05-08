@@ -1,10 +1,5 @@
-import { Collection } from "scl";
-
-const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
-
 export class TechBlogs {
-
-  public static async listAllBlogs(): Promise<string[]> {
+  public static listAllBlogs(): string[] {
     try {
       console.log("Accessing db");
       await sleep(5000); // Access to DB are very slow
@@ -12,7 +7,16 @@ export class TechBlogs {
       throw new Error("Unexpected exception");
     }
 
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
-    return ["HackerNews", "Reddit", "TechCrunch", "BuzzFeed","TMZ", "TheHuffPost", "GigaOM"];
+    return [
+      "HackerNews",
+      "Reddit",
+      "TechCrunch",
+      "BuzzFeed",
+      "TMZ",
+      "TheHuffPost",
+      "GigaOM"
+    ];
   }
 }
